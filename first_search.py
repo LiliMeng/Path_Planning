@@ -34,7 +34,7 @@ def search(grid, init, goal, cost):
     # ----------------------------------------
     # insert code here
     # ----------------------------------------
-    closed = [[0 for row in range(len(grid[0]))] for col in range(len(grid))]
+    closed = [[0 for row in range(len(grid[0]))] for col in range(len(grid))]  #Don't confuse this part 0 for every row in the first row grid[0]
     closed[init[0]][init[1]] = 1
 
     x = init[0]
